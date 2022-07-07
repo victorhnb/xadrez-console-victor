@@ -49,9 +49,12 @@ namespace xadrez_console_victor
                         Console.ReadLine();
                     }
 
+                    Console.Clear();
+                    Tela.imprimirPartida(partida);
 
-                    
-                    }
+
+
+                }
 
 
 
