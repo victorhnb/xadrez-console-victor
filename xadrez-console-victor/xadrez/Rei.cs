@@ -39,7 +39,7 @@ namespace xadrez
             Posicao pos = new Posicao(0, 0);
 
             //acima 
-            pos.definirValores(posicao.linha, posicao.coluna);
+            pos.definirValores(posicao.linha -1, posicao.coluna);
 
             if(tab.posicaoValida(pos) && podeMover(pos)){
 
