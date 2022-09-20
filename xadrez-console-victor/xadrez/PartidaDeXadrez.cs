@@ -30,6 +30,7 @@ namespace xadrez
             colocarPecas();
         }
 
+
         public Peca executaMovimento(Posicao origem, Posicao destino)
         {
             Peca p = tab.retirarPeca(origem);
